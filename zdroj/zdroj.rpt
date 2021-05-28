@@ -1,0 +1,336 @@
+## Footprint report - date Fri Apr 30 23:03:08 2021
+## Created by Pcbnew version kicad 5.1.9-5.1.9
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 81.399870 32.819253
+lower_right_corner 177.800001 96.632500
+$EndBOARD
+
+$MODULE "R2"
+reference "R2"
+value "1k"
+footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal"
+attribut none
+position 172.720000 53.340000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 20.320000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "D1"
+reference "D1"
+value "LED"
+footprint "LED_THT:LED_D3.0mm"
+attribut none
+position 172.720000 45.720000  orientation 270.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position  2.540000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
+
+$MODULE "R1"
+reference "R1"
+value "0"
+footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal"
+attribut none
+position 166.370000 64.770000  orientation 180.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 20.320000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "J4"
+reference "J4"
+value "RD-35A"
+footprint "Connector_Wire:SolderWire-0.5sqmm_1x06_P4.8mm_D0.9mm_OD2.3mm"
+attribut virtual
+position 127.000000 41.910000  orientation 0.00
+layer front
+$PAD "6"
+Shape Circle Layer both
+position 24.000000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position 19.200000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position 14.400000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  9.600000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  4.800000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Roundrect Layer both
+position  0.000000  0.000000  size  2.300000  2.300000  orientation 0.00
+drill  1.100000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "J2"
+reference "J2"
+value "Molex"
+footprint "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical"
+attribut none
+position 154.940000 82.550000  orientation 0.00
+layer front
+$PAD "4"
+Shape Circle Layer both
+position 15.240000  0.000000  size  2.780000  2.780000  orientation 0.00
+drill  1.780000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position 10.160000  0.000000  size  2.780000  2.780000  orientation 0.00
+drill  1.780000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.080000  0.000000  size  2.780000  2.780000  orientation 0.00
+drill  1.780000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.780000  2.780000  orientation 0.00
+drill  1.780000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "U1"
+reference "U1"
+value "IEC_C14_with_switch"
+footprint "zdroj:Connector_EIC_C14_with_switch"
+attribut none
+position 110.490000 58.420000  orientation 270.00
+layer front
+$PAD "5"
+Shape Roundrect Layer both
+position -12.500000  4.000000  size  2.000000  4.000000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Roundrect Layer both
+position -8.500000  4.000000  size  2.000000  4.000000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Roundrect Layer both
+position  0.500000  5.000000  size  4.000000  2.000000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer both
+position  7.500000  5.000000  size  4.000000  2.000000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Roundrect Layer both
+position 14.500000  5.000000  size  4.000000  2.000000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U1
+
+$MODULE "J3"
+reference "J3"
+value "Double USB"
+footprint "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+attribut none
+position 119.380000 78.740000  orientation 0.00
+layer front
+$PAD "SH"
+Shape Circle Layer both
+position 10.070000 -0.350000  size  3.000000  3.000000  orientation 0.00
+drill  2.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "SH"
+Shape Circle Layer both
+position -3.070000 -0.350000  size  3.000000  3.000000  orientation 0.00
+drill  2.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.500000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  4.500000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position  7.000000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "SH"
+Shape Circle Layer both
+position -3.070000  5.330000  size  3.000000  3.000000  orientation 0.00
+drill  2.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "SH"
+Shape Circle Layer both
+position 10.070000  5.330000  size  3.000000  3.000000  orientation 0.00
+drill  2.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position  0.000000  2.620000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer both
+position  2.500000  2.620000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Circle Layer both
+position  4.500000  2.620000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Circle Layer both
+position  7.000000  2.620000  size  1.500000  1.500000  orientation 0.00
+drill  0.920000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "F1"
+reference "F1"
+value "Fuse"
+footprint "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
+attribut none
+position 118.110000 55.880000  orientation 0.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position 22.600000  0.000000  size  3.000000  3.000000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  3.000000  3.000000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  F1
+
+$MODULE "J1"
+reference "J1"
+value "+5V"
+footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+attribut none
+position 166.370000 57.150000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "J5"
+reference "J5"
+value "+12V"
+footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+attribut none
+position 152.400000 57.150000  orientation 90.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J5
+
+$EndDESCRIPTION

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /Users/mike/Documents/KiCAD/i/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Connectors_IEC_DIN)(type KiCad)(uri /Users/mike/Documents/KiCAD/Connectors_IEC_DIN.pretty)(options "")(descr ""))
+  (lib (name zdroj)(type KiCad)(uri ${KIPRJMOD}/zdroj.pretty)(options "")(descr ""))
+)
